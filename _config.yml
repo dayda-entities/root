@@ -1,0 +1,16 @@
+title: Dayda
+name: Directory
+description: Working to data more discoverable and usable with applications, automation, and workflows.
+about: There are a huge number of rich data sets available via government agencies, institutions, and other organizations that never get found because they aren't available for indexing by search engines or available in ways that make them difficult to understand how to access them. Dayda is a simple project to liberate CSV, JSON, and other datasets that exist across the web. We are getting started with the lowest hanging fruit, indexing as many CSV and JSON files as we can, but then will be moving to spreadsheet and other common data stores. Making the rich data hidden away more accessible for download, and running as part of automation and orchestration using Postman collections.<br><br>As new datasets are disco they are harvested, cached, and made available via each agency, institution, or organization via a simple Dayda entity website and public workspace. Once we feel like we have indexed a sufficient amount of the low hanging fruit when it comes to day we will begin to organize and group data by topic, further helping identify some of the common types of resources available across multiple entities, but might be easier to understand the potential when aggregated. If you know of any interesting datasets feel free to email or tweet at us and we'd be happy to add and make more accessible.
+source_url: http://example.com
+source_contact_type: general
+source_phone: +1 555-555-5555
+source_email: info@example.com
+source_catalog: data.gov
+profile_pic: /assets/img/dayda-logo-v2.png
+favicon: /assets/img/favicon.png
+url: http://directory.dayda.org
+encoding: utf-8
+paginate: 25
+paginate_path: /page:num/
+markdown: kramdown

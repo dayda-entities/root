@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign entities = site.data.entities %}
+{% for item in entities %}
+    {% assign entity = item[1] %}
+    <div class="feed-title-excerpt-block disable-select" data-url="{{site.url}}{{item.url}}">
+        <a href="{{ entity.url }}" target="_blank" style="text-decoration: none; color: #555555;">
+        <img src="{{ entity.profile_pic }}" width="70" style="padding: 7px;" align="left">
+        <p class="feed-title">{{ entity.name }}</p>
+        <p class="feed-excerpt">{{ entity.description | strip_html | strip | escape | truncate: 200}}</p>
+        </a>
+    </div>
+{% endfor %}
