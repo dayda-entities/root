@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-{% for item in paginator.posts %}
-    {% assign entity = item[1] %}
+
+{% for entity in paginator.posts %}
     <div class="feed-title-excerpt-block disable-select" data-url="{{site.url}}{{item.url}}">
         <a href="{{ entity.url }}" target="_blank" style="text-decoration: none; color: #555555;">
         <img src="{{ entity.profile_pic }}" width="70" style="padding: 7px;" align="left">
